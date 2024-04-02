@@ -1,12 +1,12 @@
 import { Footer } from "../_components/footer-section";
-import { QuickLink } from "../_components/bottun_link";
+import { Update } from "../_components/bottun_link";
 
 import { DirectoryMain } from "./_components/services-main";
 export default function DirectoryPage() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <DirectoryMain/>
-      <QuickLink />
+      <Update />
       <Footer currentPage="directory" />
     </div>
   );
