@@ -1,6 +1,6 @@
 import { Footer } from "../_components/footer-section";
 import { QuickLink } from "../_components/buttun_link";
-import { DiscoverMain } from "./_components/discover-main";
+import { DiscoverMain } from "./_components/total-order-main";
 
 export default function DiscoverPage() {
   return (
