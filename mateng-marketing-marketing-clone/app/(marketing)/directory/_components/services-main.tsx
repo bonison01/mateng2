@@ -12,10 +12,6 @@ export function DirectoryMain() {
         poppinsFont.className
       )}
     >
-      <div className="flex flex-col items-start font-light text-sm sm:text-base space-y-2">
- 
-        
-      </div>
      
     </div>
   );
