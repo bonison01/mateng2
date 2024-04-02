@@ -29,7 +29,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/total_order"}>Delivery Rates</Link>
+          <Link href={"/total_order"}>Total Order</Link>
         </Button>
         <Button
           className={cn(
@@ -38,7 +38,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/discover"}>Discover new</Link>
+          <Link href={"/total_order"}>Today Order</Link>
         </Button>
         <Button
           className={cn(
@@ -47,26 +47,10 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/services"}>Services</Link>
+          <Link href={"/total_order"}>Padding Order</Link>
         </Button>
-        <Button
-          className={cn(
-            "w-40 h-8 sm:w-52 sm:h-10",
-            currentPage && currentPage === "contact-us" && "hidden"
-          )}
-          asChild
-        >
-          <Link href={"/contact-us"}>Contact us</Link>
-        </Button>
-        <Button
-          className={cn(
-            "w-40 h-8 sm:w-52 sm:h-10",
-            currentPage && currentPage === "contact-us" && "hidden"
-          )}
-          asChild
-        >
-          <Link href={"/contact-us"}>Contact us</Link>
-        </Button>
+        
+       
       </div>
     </div>
   );
