@@ -1,5 +1,5 @@
 import { Footer } from "../_components/footer-section";
-import { QuickLink } from "../_components/quick-link-section";
+
 import { DirectoryMain } from "./_components/services-main";
 
 export default function DirectoryPage() {
