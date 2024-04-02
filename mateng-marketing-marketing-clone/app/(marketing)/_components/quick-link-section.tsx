@@ -56,6 +56,15 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
+          <Link href={"/contact-us"}>directory</Link>
+        </Button>
+         <Button
+          className={cn(
+            "w-40 h-8 sm:w-52 sm:h-10",
+            currentPage && currentPage === "contact-us" && "hidden"
+          )}
+          asChild
+        >
           <Link href={"/contact-us"}>Contact us</Link>
         </Button>
       </div>
