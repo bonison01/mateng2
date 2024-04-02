@@ -56,7 +56,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/contact-us"}>directory</Link>
+          <Link href={"/contact-us"}>Contact-us</Link>
         </Button>
          <Button
           className={cn(
@@ -65,7 +65,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/contact-us"}>Contact us</Link>
+          <Link href={"/contact-us"}>Directory</Link>
         </Button>
       </div>
     </div>
