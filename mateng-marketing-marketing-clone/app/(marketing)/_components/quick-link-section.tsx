@@ -65,7 +65,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/services"}>Directory</Link>
+          <Link href={"/directory"}>Directory</Link>
         </Button>
       </div>
     </div>
