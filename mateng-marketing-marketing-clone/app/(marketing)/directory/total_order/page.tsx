@@ -1,13 +1,13 @@
 import { Footer } from "../_components/footer-section";
-import { QuickLink } from "../_components/bottun_link";
-import { ContactsMain } from "./_components/total-order-main";
+import { Update } from "../_components/bottun_link";
+import { TotalOrderMain } from "./_components/total-order-main";
 
-export default function DiscoverPage() {
+export default function TotalOrderrPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <ContactsMain />
-      <QuickLink currentPage="discover" />
-      <Footer currentPage="discover" />
+      <TotalOrderMain />
+      <Update currentPage="total order" />
+      <Footer currentPage="total order" />
     </main>
   );
 }
