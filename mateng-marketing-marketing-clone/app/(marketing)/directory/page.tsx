@@ -1,5 +1,5 @@
 import { Footer } from "../_components/footer-section";
-import { QuickLink } from "../_components/buttun_link";
+import { QuickLink } from "../_components/bottun_link";
 
 import { DirectoryMain } from "./_components/services-main";
 
