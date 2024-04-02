@@ -3,7 +3,7 @@ import { poppinsFont } from "../../_components/quick-link-section";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
-export function ServicesMain() {
+export function DirectoryMain() {
   return (
     
     <div
@@ -14,19 +14,9 @@ export function ServicesMain() {
     >
       <div className="flex flex-col items-start font-light text-sm sm:text-base space-y-2">
  
-        <div className="space-y-2 sm:space-y-6">
-          
         
-         
-         
-         
-        </div>
       </div>
-      <div className="sm:w-48">
-        <Button className="w-full text-wrap h-12 sm:text-base sm:h-16 rounded-none">
-          click here to connect with us
-        </Button>
-      </div>
+     
     </div>
   );
 }
