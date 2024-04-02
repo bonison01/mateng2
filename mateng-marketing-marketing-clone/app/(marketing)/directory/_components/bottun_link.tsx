@@ -9,7 +9,7 @@ export const poppinsFont = Poppins({
   weight: ["900", "800", "700", "500", "400", "300", "200", "100", "600"],
 });
 
-export function QuickLink({ currentPage }: { currentPage?: string }) {
+export function Update({ currentPage }: { currentPage?: string }) {
   return (
     <div className="w-full px-4 py-6 sm:w-3/6 flex flex-col items-center my-auto">
       <p
