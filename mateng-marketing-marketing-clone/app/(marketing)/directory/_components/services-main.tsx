@@ -11,6 +11,8 @@ export function DirectoryMain() {
         poppinsFont.className
       )}
     >
+      <h2 className="text-2xl font-bold">Welcome to the Directory</h2>
+      <p className="text-lg">This is an example of content in the Directory page.</p>
      
     </div>
   );
