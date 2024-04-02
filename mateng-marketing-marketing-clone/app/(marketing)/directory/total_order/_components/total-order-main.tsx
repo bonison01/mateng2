@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { poppinsFont } from "../../_components/quick-link-section";
+import { poppinsFont } from "../../_components/bottun_link";
 
 export function DiscoverMain() {
   const instagram = process.env.INSTAGRAM_PAGE || "#";
