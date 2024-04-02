@@ -25,11 +25,11 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
         <Button
           className={cn(
             "w-40 h-8 sm:w-52 sm:h-10",
-            currentPage && currentPage === "delivery-rates" && "hidden"
+            currentPage && currentPage === "total_order" && "hidden"
           )}
           asChild
         >
-          <Link href={"/delivery-rates"}>Delivery Rates</Link>
+          <Link href={"/total_order"}>Delivery Rates</Link>
         </Button>
         <Button
           className={cn(
