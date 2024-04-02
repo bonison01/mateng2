@@ -61,7 +61,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
          <Button
           className={cn(
             "w-40 h-8 sm:w-52 sm:h-10",
-            currentPage && currentPage === "contact-us" && "hidden"
+            currentPage && currentPage === "directory" && "hidden"
           )}
           asChild
         >
