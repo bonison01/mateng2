@@ -18,7 +18,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
           poppinsFont.className
         )}
       >
-        Quick links
+        UPDATE
       </p>
       <Separator className="h-[1px] rounded-md bg-gray-600 sm:mt-2" />
       <div className="flex flex-col items-center sm:flex-row justify-center sm:space-x-8 space-y-2 sm:space-y-0 mt-2 sm:mt-4 w-full">
