@@ -13,9 +13,7 @@ export function ServicesMain() {
       )}
     >
       <div className="flex flex-col items-start font-light text-sm sm:text-base space-y-2">
-        <h1 className="text-[#025200] font-extrabold text-2xl sm:text-4xl pb-4">
-          Our Services
-        </h1>
+ 
         <div className="space-y-2 sm:space-y-6">
           <div className="flex items-center">
             <img
