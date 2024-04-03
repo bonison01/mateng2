@@ -22,15 +22,7 @@ export function Update({ currentPage }: { currentPage?: string }) {
       </p>
       <Separator className="h-[1px] rounded-md bg-gray-600 sm:mt-2" />
       <div className="flex flex-col items-center sm:flex-row justify-center sm:space-x-8 space-y-2 sm:space-y-0 mt-2 sm:mt-4 w-full">
-        <Button
-          className={cn(
-            "w-40 h-8 sm:w-52 sm:h-10",
-            currentPage && currentPage === "total_order" && "hidden"
-          )}
-          asChild
-        >
-          <Link href={"/total_order"}>TOTAL ORDER</Link>
-        </Button>
+        
         <Button
           className={cn(
             "w-40 h-8 sm:w-52 sm:h-10",
@@ -38,7 +30,7 @@ export function Update({ currentPage }: { currentPage?: string }) {
           )}
           asChild
         >
-          <Link href={"/today_order"}>Today order</Link>
+          <Link href={"/padding_order"}>Today order</Link>
         </Button>
         <Button
           className={cn(
