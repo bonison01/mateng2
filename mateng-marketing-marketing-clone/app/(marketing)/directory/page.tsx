@@ -9,7 +9,7 @@ export default function DirectoryPage() {
       <DirectoryMain />
       
       
-      <Footer currentPage="directory" />
+      
     </div>
   );
 }
