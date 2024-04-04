@@ -58,9 +58,7 @@ export function QuickLink({ currentPage }: { currentPage?: string }) {
         >
           <Link href={"/contact-us"}>Contact-us</Link>
         </Button>
-         <Button>
-          <Link href={"/bills"}>Directory</Link>
-        </Button>
+       
       </div>
     </div>
   );
