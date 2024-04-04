@@ -1,4 +1,4 @@
-import { Footer } from ".../_components/footer-section";
+import { Footer } from "../_components/footer-section";
 import { Update } from "./_components/bottun_link";
 import { DirectoryMain } from "./_components/directory-main";
 
