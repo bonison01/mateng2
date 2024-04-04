@@ -21,25 +21,25 @@ export function Update({ currentPage }: { currentPage?: string }) {
       <div className="flex flex-col items-center sm:flex-row justify-center sm:space-x-8 space-y-2 sm:space-y-0 mt-2 sm:mt-4 w-full">
         <Button
           className={cn(
-            "w-40 h-8 sm:w-52 sm:h-10",
+            "w-40 h-10 sm:w-52 sm:h-30",
             currentPage && currentPage === "total_order" && "hidden"
           )}
           asChild
         >
-          <Link href={"/total_order"}>TOTAL ORDER</Link>
+          <Link href={"/padding_order"}>TOTAL ORDER</Link>
         </Button>
         <Button
           className={cn(
-            "w-40 h-8 sm:w-52 sm:h-10",
+            "w-40 h-10 sm:w-52 sm:h-30",
             currentPage && currentPage === "today_order" && "hidden"
           )}
           asChild
         >
-          <Link href={"/today_order"}>Today order</Link>
+          <Link href={"/padding_order"}>Today order</Link>
         </Button>
         <Button
           className={cn(
-            "w-40 h-8 sm:w-52 sm:h-10",
+            "w-40 h-10 sm:w-52 sm:h-30",
             currentPage && currentPage === "padding_order" && "hidden"
           )}
           asChild
