@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export function Update({ currentPage }: { currentPage?: string }) {
   return (
-    <div className="w-full px-4 py-6 sm:w-3/6 flex flex-col items-center my-auto">
+    <div className="w-full px-4 py-6 sm:w-3/6 flex flex-col items-start my-auto">
       <p
         className={cn(
           "text-blue-800 text-lg font-medium sm:font-semibold",
