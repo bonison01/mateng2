@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-import { Content } from "./content";
 
 export function PaddingMain() {
  
