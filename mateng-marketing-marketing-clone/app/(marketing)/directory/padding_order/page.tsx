@@ -1,5 +1,5 @@
 import { Footer } from ".../_components/footer-section";
-import { Update } from ".../_components/bottun_link";
+import { Update } from "../_components/bottun_link";
 import { PaddingMain } from "./_components/padding-main";
 
 
