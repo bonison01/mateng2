@@ -8,7 +8,7 @@ export default function DiscoverPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       <PaddingMain />
-      <Update currentPage="padding_order" />
+      <Update currentPage="padding" />
       <Footer currentPage="padding" />
     </main>
   );
