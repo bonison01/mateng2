@@ -9,6 +9,10 @@ export function DirectoryMain() {
         "pt-20 pb-10 sm:pt-32 flex flex-col sm:flex-row justify-center items-center space-y-8 sm:space-x-12 px-4 sm:px-0"
       )}
     >
+       <div className="font-semibold text-base sm:text-lg w-[70%]">
+        For questions, technical assistance, or collaboration opportunities via
+        the contact information provided
+      </div>
     
      
     </div>
