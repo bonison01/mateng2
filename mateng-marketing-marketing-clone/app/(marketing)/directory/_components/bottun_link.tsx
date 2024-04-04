@@ -1,13 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
-import { Poppins } from "next/font/google";
+import { poppinsFont } from "../../_components/quick-link-section";
+
 import Link from "next/link";
 
-export const poppinsFont = Poppins({
-  subsets: ["latin"],
-  weight: ["900", "800", "700", "500", "400", "300", "200", "100", "600"],
-});
 
 export function Update({ currentPage }: { currentPage?: string }) {
   return (
