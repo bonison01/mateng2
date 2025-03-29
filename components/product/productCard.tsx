@@ -150,9 +150,10 @@ const ProductCard = memo(({ product }: ProductCardProps) => {
     const [selectedImage, setSelectedImage] = useState(product.media_urls?.[0] || "/unavailable.jpg");
 
     // Check if the product is already in the cart
-    const cartItem = cartItems.find(item => item.id === product.id);
+    const cartItem = Array.isArray(cartItems) ? cartItems.find(item => item.id === product.id) : null;
     const isInCart = Boolean(cartItem);
     const quantity = cartItem?.quantity || 0;
+    
 
     // Handle cart actions
     const handleAddToCart = () => {
